@@ -27,6 +27,7 @@ We froze most of DistilBERT's layers and fine-tuned the classifier head on Daily
 Headlines were scraped via `sitemap.xml` using an async pipeline with randomized headers and jitter to avoid rate limiting. Cleaning included deduplication, removal of non-article URLs, and normalization. Final datasets:
 - Fox/NBC: ~1M URLs each
 - CNN/NPR/DailyWire: 100–400 articles each (upsampled for balance)
+- [Link to datasets here](https://huggingface.co/datasets/rushilpatel386/519_collected_data)
 
 ## Repo Structure
 ```
